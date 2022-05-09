@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import { toDate } from "../App";
+import {toDate} from "../../utils";
 
 export const TableEvents = (_datasetLabel: string, dataTable: any) => {
     if (dataTable && dataTable[0]) {

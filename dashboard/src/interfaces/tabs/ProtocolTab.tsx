@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
-import { Chart } from "../../chartComponents/Chart";
-import { TableChart } from "../../chartComponents/TableChart";
+import { Chart } from "../../common/chartComponents/Chart";
+import { TableChart } from "../../common/chartComponents/TableChart";
 import { ProtocolTypeEntity } from "../../constants";
 import SchemaTable from "../SchemaTable";
 

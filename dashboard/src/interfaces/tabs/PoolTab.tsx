@@ -1,7 +1,7 @@
 import { Grid, Paper, Table, TableBody, TableCell, TableContainer, TableRow } from "@mui/material";
-import { Chart } from "../../chartComponents/Chart";
-import { TableChart } from "../../chartComponents/TableChart";
-import { poolDropDown } from "../../utilComponents/PoolDropDown";
+import { Chart } from "../../common/chartComponents/Chart";
+import { TableChart } from "../../common/chartComponents/TableChart";
+import { poolDropDown } from "../../common/utilComponents/PoolDropDown";
 import { PoolName, PoolNames, Versions } from "../../constants";
 import SchemaTable from "../SchemaTable";
 import { convertTokenDecimals } from "../ProtocolDashboard";
